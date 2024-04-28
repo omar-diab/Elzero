@@ -127,7 +127,7 @@ ul{
 .header{
     background-color: white;
     position: relative;
-    -webkit-box-shadow: 0 0 15px #ddd;
+    -webkit-hadow: 0 0 15px #ddd;
     -moz-box-shadow: 0 0 15px #ddd;
     box-shadow: 0 0 15px #ddd;
 }
@@ -161,7 +161,7 @@ ul{
         margin: auto;
     }
 }
-.header .main-nav li:hover .mega-menu{
+.header .main-nav .li-links.open .mega-menu{
     opacity: 1;
     z-index: 100;
     top: calc(100% + 1px);
@@ -1425,7 +1425,6 @@ ul{
     background-color: white;
     text-align: center;
     align-items: center;
-    width: 100%;
     padding: 50px 100px;
     position: relative;
     box-shadow: 0 12px 20px 0 rgb(0 0 0 / 13%), 0 2px 4px 0 rgb(0 0 0 / 12%);
@@ -1718,4 +1717,4 @@ ul{
     margin: 50px 0 0;
     border-top: 1px solid #444;
 }
-/* End Footer */
+/* End Footer
